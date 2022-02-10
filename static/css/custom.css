@@ -1,4 +1,5 @@
-@import url('https://cdn.jsdelivr.net/gh/sansui233/logseq-bonofix-theme/custom.css');
+@import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@main/custom.css");
+@import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@main/bullet_threading.css");
 
 :root {
   --ls-font-family: Monaco, "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
