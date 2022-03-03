@@ -1,0 +1,9 @@
+- FATE (Federated AI Technology Enabler) 是全球首个[[联邦学习]]工业级开源框架，可以让企业和机构在保护数据安全和数据隐私的前提下进行数据协作。 FATE 项目使用[[多方安全计算]] (Secure Multi-Party Computation，MPC) 以及[[同态加密]] (HE) 技术构建底层安全计算协议，以此支持不同种类的机器学习的安全计算，包括[[逻辑回归]]、[[决策树]]、[[深度学习]]和[[迁移学习]]等。 FATE 于 2019 年 2 月首次对外开源，并成立 FATE TSC 对 FATE 社区进行开源治理，成员包含国内主要云计算和金融服务企业。
+- ## 项目架构
+- ![image.png](../assets/FATE架构图.png)
+- FATE Board：Job&Task 状态展示平台。
+- FATE Flow Client：数据上传以及发布 Job 的 cli 工具。
+- FATE Flow Server：Job&Task，以及各类资源的管理平台。
+- FATE Flow Task Executor: FATE Flow Server 创建的子进程用来监视 Task 的状态。
+- EggRoll：数据存储以及计算单元。
+- RollSite：组织方唯一对外通讯的 Proxy 服务，用来多方同步 Job&Task，以及训练的中间数据等。
