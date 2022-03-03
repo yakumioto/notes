@@ -1,0 +1,2 @@
+- Alikid 是一个基于 [[Hyperledger Fabric]] 实现的 BaaS(Blockchan as a Service) 服务
+-
