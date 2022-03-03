@@ -2,4 +2,4 @@
 - 项目处于开发阶段, 并未正式发布以下功能均为计划支持的功能.
 - ## 功能
 - TODO 集群支持: `docker`, `docker swarm`, `kubernetes`
-- TODO 组织管理：组织的管理, 创建不同类型的组织：`orderer`，`peer`
+- TODO 组织管理：组织的管理, 创建不同类型的组织：`consensus`，`peer`
