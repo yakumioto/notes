@@ -2,10 +2,10 @@
 - 项目处于开发阶段, 并未正式发布以下功能均为计划支持的功能.
 - ## 功能
 - TODO 集群支持: `docker`, `docker swarm`, `kubernetes`
-- TODO 组织管理：组织的管理, 创建不同类型的组织：`consensus`，`partner`
+- TODO 组织管理：组织的管理, 创建不同类型的组织：`consensus`, `partner`
 - TODO 用户管理：可以加入到多个组织中
 - TODO 身份管理：一个用户可以有多个身份，节点也有自己的身份
 - TODO 网络管理: 组织可以创建多个网络, 加入多个网络
 - TODO 动态添加: 网络支持动态添加组织功能
 - TODO 共识算法: 支持 `solo`, `etcdraft`
--
+- TODO 合约管理: 合约的上传, 初始化, 部署, 支持 go, java, node
