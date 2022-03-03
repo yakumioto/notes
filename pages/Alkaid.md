@@ -3,4 +3,4 @@
 - ## 功能
 - TODO 集群支持: `docker`, `docker swarm`, `kubernetes`
 - TODO 组织管理：组织的管理, 创建不同类型的组织：`consensus`，`partner`
--
+- TODO 用户管理：
