@@ -1,2 +1,4 @@
 - Alikid 是一个基于 [[Hyperledger Fabric]] 实现的 BaaS(Blockchan as a Service) 服务
--
+- 项目处于开发阶段, 并未正式发布以下功能均为计划支持的功能.
+- ## 功能
+- TODO 集群支持: `docker, docker swarm, kubernetes
