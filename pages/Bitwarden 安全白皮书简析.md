@@ -18,5 +18,6 @@
 - ## 用户创建
 - 用户点击注册账户时，浏览器会使用 PBKDF2 算法对用户的 ((62284063-13f8-4a4b-bbd0-4128d90b9a80)) + 邮箱进行 100000 次的哈希迭代，得到 ((622840fb-f301-43db-adc6-e9bff63019a1))。
 	- 主密码：s9qn#UhhaDir5V2B
-	-
+	- 邮箱：yaku.mioto@gmail.com
+	- 主密钥：VTEkR02r8xcCrJLRrJmbx78Vqp5mjH9tAM3YDpIzmsA=
 	-
