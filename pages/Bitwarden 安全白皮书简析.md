@@ -22,4 +22,4 @@
 	- ((62284063-13f8-4a4b-bbd0-4128d90b9a80)) ：s9qn#UhhaDir5V2B
 	- ((622840fb-f301-43db-adc6-e9bff63019a1)) ：VTEkR02r8xcCrJLRrJmbx78Vqp5mjH9tAM3YDpIzmsA=
 - 步骤2：浏览器会使用 [[HKDF]] 算法对用户的 ((622840fb-f301-43db-adc6-e9bff63019a1)) 进行扩展，得到 ((622849ad-2b8c-495b-bd6e-b303850d4c0f))。
-	- 主密钥：
+	- ((622840fb-f301-43db-adc6-e9bff63019a1)) ：VTEkR02r8xcCrJLRrJmbx78Vqp5mjH9tAM3YDpIzmsA=
