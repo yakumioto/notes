@@ -6,12 +6,12 @@
 - 主密码（Master Password）
 	- 用户唯一需要记住的密码，也是不可忘记的密码（一旦忘记会导致所有的密码丢失），泄漏将导致所有密码都变得不安全，所以此密码只记录与自己的大脑中。
 - 主密钥（Master Key）
-	- 通过 [[pbkdf2]] 算法对主密码进行哈希，得到一个固定长度的数据。
+	- 通过 [[PBKDF2]] 算法对主密码进行哈希，得到一个固定长度的数据。
 - 扩展主密钥（Stretched Master Key）
-	- 通过 [[hkdf]] 算法对主密钥进行拉伸，进一步加强密钥的安全性。
+	- 通过 [[HKDF]] 算法对主密钥进行拉伸，进一步加强密钥的安全性。
 - 对称密钥（Symmetric Key）
 	- 用于加密所有用户数据的密钥。
 - 非对称密钥（RSA Key Pair）
 	- 用于对组织对称密钥加密。
 - ## 用户创建
-- 用户点击注册账户时，浏览器会使用 Password-Based Key Derivation Function 2
+- 用户点击注册账户时，浏览器会使用 Password-Based Key Derivation Function 2（PBKDF2）
