@@ -1,0 +1,1 @@
+- 在密码学中，最优非对称加密填充（英语：Optimal Asymmetric Encryption Padding，缩写：OAEP）是一种经常与RSA加密一起使用的填充方案。OAEP 由 Mihir Bellare 和 Phillip Rogaway 发明[1]，随后在 PKCS#1 v2 和 RFC 2437 中得到标准化。
