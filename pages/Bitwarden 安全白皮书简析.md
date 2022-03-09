@@ -14,4 +14,4 @@
 - 非对称密钥（RSA Key Pair）
 	- 用于对组织对称密钥加密。
 - ## 用户创建
-- 用户创建时
+- 用户点击注册账户时，浏览器会使用 Password-Based Key Derivation Function 2
