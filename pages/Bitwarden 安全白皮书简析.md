@@ -10,6 +10,7 @@
   id:: 622840fb-f301-43db-adc6-e9bff63019a1
 	- 通过 [[PBKDF2]] 算法对主密码进行哈希，得到一个固定长度的数据。
 - 扩展主密钥（Stretched Master Key）
+  id:: 622849ad-2b8c-495b-bd6e-b303850d4c0f
 	- 通过 [[HKDF]] 算法对主密钥进行拉伸，进一步加强密钥的安全性。
 - 对称密钥（Symmetric Key）
 	- 用于加密所有用户数据的密钥。
@@ -17,7 +18,8 @@
 	- 用于对组织对称密钥加密。
 - ## 用户创建
 - 步骤1：浏览器会使用 [[PBKDF2]] 算法对用户的 ((62284063-13f8-4a4b-bbd0-4128d90b9a80)) + 邮箱进行 100000 次的哈希迭代，得到 ((622840fb-f301-43db-adc6-e9bff63019a1))。
-	- 主密码：s9qn#UhhaDir5V2B
+	- ((622840fb-f301-43db-adc6-e9bff63019a1)) ：s9qn#UhhaDir5V2B
 	- 邮箱：yaku.mioto@gmail.com
 	- 主密钥：VTEkR02r8xcCrJLRrJmbx78Vqp5mjH9tAM3YDpIzmsA=
-- 步骤2：浏览器会使用 [[HKDF]] 算法对用户的 ((622840fb-f301-43db-adc6-e9bff63019a1))
+- 步骤2：浏览器会使用 [[HKDF]] 算法对用户的 ((622840fb-f301-43db-adc6-e9bff63019a1)) 进行扩展，得到 ((622849ad-2b8c-495b-bd6e-b303850d4c0f))。
+	- 主密钥：
