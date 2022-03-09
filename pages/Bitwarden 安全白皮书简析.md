@@ -8,4 +8,4 @@
 - 主密钥（Master Key）
 	- 通过 [[pbkdf2]] 算法对主密码进行哈希，得到一个固定长度的数据。
 - 扩展主密钥（Stretched Master Key）
-	- 通过 [[hkdf]] 算法
+	- 通过 [[hkdf]] 算法对主密钥扩展出出两个固定长度的
