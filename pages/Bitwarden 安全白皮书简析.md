@@ -26,4 +26,4 @@
 		- Encryption Key：2YmTGyHlY5856okt3xnUbe2ogCEl6F2rZxKjReV7noY=
 		- MAC Key：4Cx22FeKfTSOZ+6Mnr9Una36rJheGxFqI5Bw1evTuc8=
 	- [扩展主密钥](((622849ad-2b8c-495b-bd6e-b303850d4c0f)))：2YmTGyHlY5856okt3xnUbe2ogCEl6F2rZxKjReV7nobgLHbYV4p9NI5n7oyev1SdrfqsmF4bEWojkHDV69O5zw==
-- 步骤三：浏览器会调用系统的安全随机函数 [[CSPRNG]]
+- 步骤三：浏览器会调用系统的密码安全伪随机生成函数 [[CSPRNG]] 生成一个
