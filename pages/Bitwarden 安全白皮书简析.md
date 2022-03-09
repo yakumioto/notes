@@ -10,4 +10,6 @@
 - 扩展主密钥（Stretched Master Key）
 	- 通过 [[hkdf]] 算法对主密钥进行拉伸，进一步加强密钥的安全性。
 - 对称密钥（Symmetric Key）
-	-
+	- 用于加密所有用户数据的密钥。
+- 非对称密钥（RSA Key Pair）
+	- 用于对组织对称密钥加密
